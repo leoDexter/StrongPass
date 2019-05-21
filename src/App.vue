@@ -5,9 +5,7 @@
         <input type="text" class="form-control">
         <br>
         <strong-password v-model="userData.password" placeholder="Enter password"></strong-password>
-        Valor atribuído à propriedade do objeto: {{ userData.password }}
-        <strong-password v-model="userData.password" placeholder="Enter password"></strong-password>
-        Valor atribuído à propriedade do objeto: {{ userData.password }}
+        Valor atribuído à propriedade do objeto: {{ userData.password }}        
       </div>
     </div>
   </div>
